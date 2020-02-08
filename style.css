@@ -1,0 +1,60 @@
+.container {
+    background: floralwhite;
+    width: 600px;
+    height: 300px;
+    margin: 150px auto;
+    border: 2px black solid;
+}
+.symbols {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+.symbols{
+    margin: 0 auto;
+    font-size: 35px;
+}
+#plus {
+    background: white;
+    width: 60px;
+    height: 45px;
+    border: 2px solid black;
+    text-align: center;   
+}
+
+#minus{
+    background: white;
+    width: 60px;
+    height: 45px;
+    border: 2px solid black;
+    text-align: center; 
+}
+#multi{
+    background: white;
+    width: 60px;
+    height: 45px;
+    border: 2px solid black;
+    text-align: center; 
+}
+
+#divide {
+    background: white;
+    width: 60px;
+    height: 45px;
+    border: 2px solid black;
+    text-align: center; 
+}
+
+.result {
+
+}
+
+.numbers {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    margin: 30px auto;
+}
+label { 
+    display: block;
+}
